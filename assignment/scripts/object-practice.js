@@ -32,8 +32,8 @@ console.log( 'Expect \"Jeremy Coper\"\:', fullName );
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log('Expect \"pizza\"\: ', me.favThreeFoods[0]);
-console.log('Expect \"haggis\"\: ', me.favThreeFoods[2]);
+console.log( 'Expect \"pizza\"\: ', me.favThreeFoods[0] );
+console.log( 'Expect \"haggis\"\: ', me.favThreeFoods[2] );
 
 
 /* 4. Change a property of an existing object.
@@ -42,9 +42,9 @@ console.log('Expect \"haggis\"\: ', me.favThreeFoods[2]);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-console.log('Expect 2\: ', me.shoeCount);
+console.log( 'Expect 2\: ', me.shoeCount );
 me.shoeCount += 1;
-console.log('Expect 3\: ', me.shoeCount);
+console.log( 'Expect 3\: ', me.shoeCount );
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -52,3 +52,5 @@ console.log('Expect 3\: ', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'blue';
+console.log( me );
